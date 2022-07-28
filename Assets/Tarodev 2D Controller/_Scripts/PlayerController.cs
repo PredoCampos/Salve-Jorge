@@ -22,7 +22,7 @@ namespace TarodevController {
         public bool LandingThisFrame { get; private set; }
         public Vector3 RawMovement { get; private set; }
         public bool Grounded => _colDown;
-
+ 
 
         private Vector3 _lastPosition;
         private float _currentHorizontalSpeed, _currentVerticalSpeed;
@@ -153,6 +153,7 @@ namespace TarodevController {
         #region Walk
 
         [Header("WALKING")] 
+        [SerializeField] private float _dificult = 0;
         [SerializeField] private float _acceleration = 90;
         [SerializeField] private float _constantAcceleration = 10;
         [SerializeField] private float _currentAcceleration;
@@ -162,7 +163,7 @@ namespace TarodevController {
 
         private void CalculateWalk() {
 
-            _constantAcceleration += (float)0.2 * Time.deltaTime;
+            _constantAcceleration += _dificult * Time.deltaTime;
             _currentAcceleration = _constantAcceleration + _acceleration;
 
             if (Input.X != 0) {
