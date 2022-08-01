@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Scenarios
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Scenario
+    uniqueID: 452689985
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

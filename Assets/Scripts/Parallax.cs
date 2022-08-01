@@ -1,24 +1,31 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Parallax : MonoBehaviour {
 
-	private float length, startPos;
-	public GameObject cam;
-	public float parallexEffect;
+	[SerializeField] public bool _infinityMoviment;
+	[SerializeField] private RawImage _img;
+	[SerializeField] private float _parallaxVelocity;
+	[SerializeField] private GameObject _cam;
+	private float _inicialPosition;
 
-	void Start () {
-		startPos = transform.position.x;
-		length = GetComponent<SpriteRenderer>().bounds.size.x;
+	void Start () {	
+		_inicialPosition = _img.uvRect.position.x;
+		Debug.Log("Posicao incial: " + _inicialPosition);
 	}
 	
 	void FixedUpdate () {
-		float temp = (cam.transform.position.x * (1-parallexEffect));
-		float dist = (cam.transform.position.x*parallexEffect);
 
-		transform.position = new Vector3(startPos + dist, transform.position.y, transform.position.z);
+		float dist = (_cam.transform.position.x * _parallaxVelocity);
+		Debug.Log("cam: " + _cam.transform.position.x);
 
-		if      (temp > startPos + length) startPos += length;
-		else if (temp < startPos - length) startPos -= length;
+		if (_infinityMoviment)
+			_img.uvRect = new Rect (_img.uvRect.position + new Vector2(_parallaxVelocity, 0) * Time.deltaTime, _img.uvRect.size);
+		else
+			_img.uvRect = new Rect (_img.uvRect.position + new Vector2( _inicialPosition + dist, 0), _img.uvRect.size);
+		//float dist = (cam.transform.position.x * parallexEffect);
+		//transform.position = new Vector2(startPos + dist, transform.position.y);
+		
 	}
 
 }
