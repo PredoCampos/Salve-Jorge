@@ -267,10 +267,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed9da42bb13fd458c9f3c8cadccd4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infinityMoviment: 1
-  _img: {fileID: 147376904}
-  _parallaxVelocity: 1
   _cam: {fileID: 519420028}
+  _img: {fileID: 147376904}
+  _infinityMoviment: 1
+  _parallaxVelocity: 0.3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,11 +352,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1962133819}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.03, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,7 +459,7 @@ Transform:
   m_Children:
   - {fileID: 1735597397}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824223398
 GameObject:
@@ -548,10 +547,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed9da42bb13fd458c9f3c8cadccd4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infinityMoviment: 0
-  _img: {fileID: 824223400}
-  _parallaxVelocity: 0
   _cam: {fileID: 519420028}
+  _img: {fileID: 824223400}
+  _infinityMoviment: 0
+  _parallaxVelocity: 0.5
 --- !u!1 &854060810
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,10 +637,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed9da42bb13fd458c9f3c8cadccd4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infinityMoviment: 0
-  _img: {fileID: 854060812}
-  _parallaxVelocity: 0
   _cam: {fileID: 519420028}
+  _img: {fileID: 854060812}
+  _infinityMoviment: 0
+  _parallaxVelocity: 0.01
 --- !u!1 &868646346
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,7 +672,7 @@ Transform:
   - {fileID: 62452063}
   - {fileID: 1835642780}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &988885720
 GameObject:
@@ -761,10 +760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed9da42bb13fd458c9f3c8cadccd4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infinityMoviment: 0
-  _img: {fileID: 988885722}
-  _parallaxVelocity: 1
   _cam: {fileID: 519420028}
+  _img: {fileID: 988885722}
+  _infinityMoviment: 0
+  _parallaxVelocity: 0.5
 --- !u!1 &1474324606
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,10 +850,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed9da42bb13fd458c9f3c8cadccd4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infinityMoviment: 0
-  _img: {fileID: 1474324608}
-  _parallaxVelocity: 0
   _cam: {fileID: 519420028}
+  _img: {fileID: 1474324608}
+  _infinityMoviment: 0
+  _parallaxVelocity: 0.2
 --- !u!1 &1622201030
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,10 +940,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deed9da42bb13fd458c9f3c8cadccd4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infinityMoviment: 0
-  _img: {fileID: 1622201032}
-  _parallaxVelocity: 0
   _cam: {fileID: 519420028}
+  _img: {fileID: 1622201032}
+  _infinityMoviment: 0
+  _parallaxVelocity: 0.1
 --- !u!1 &1734874266
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,7 +1208,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1835642777
 GameObject:
@@ -1367,8 +1366,8 @@ RectTransform:
   - {fileID: 1474324607}
   - {fileID: 824223399}
   - {fileID: 988885721}
-  m_Father: {fileID: 519420032}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1388,7 +1387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444843057006483031, guid: 56d8284e61765dc45a81c4ac76523274, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 444843057006483031, guid: 56d8284e61765dc45a81c4ac76523274, type: 3}
       propertyPath: m_LocalScale.x
