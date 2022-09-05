@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8f916bd4c5a444fa42e298d90f488d, type: 3}
+  m_Name: AchievementList
+  m_EditorClassIdentifier: 
+  AchievementsListID: AchievementsList
+  Achievements:
+  - AchievementID: theFirestarter
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: The Firestarter
+    Description: Start a game, any game
+    Points: 20
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 21300002, guid: a4362dfa101b2c94a96833b5545dbedc, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: theEndOfEverything
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: The End of Everything
+    Description: Lose a life
+    Points: 20
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 21300004, guid: a4362dfa101b2c94a96833b5545dbedc, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: timeStop
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Time Stop
+    Description: Press the pause button at least once.
+    Points: 20
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 21300006, guid: a4362dfa101b2c94a96833b5545dbedc, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: aSmallStepForMan
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: A Smalll Step For Man
+    Description: Jump for the very first time
+    Points: 20
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 21300000, guid: a4362dfa101b2c94a96833b5545dbedc, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: toInfinityAndBeyond
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: To Infinity and Beyond!
+    Description: Jump at least 10 times
+    Points: 50
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 21300008, guid: a4362dfa101b2c94a96833b5545dbedc, type: 3}
+    UnlockedSound: {fileID: 8300000, guid: 53d7a3adf877b4b72b7ec879fd0c0c75, type: 3}
+    ProgressTarget: 10
+    ProgressCurrent: 0

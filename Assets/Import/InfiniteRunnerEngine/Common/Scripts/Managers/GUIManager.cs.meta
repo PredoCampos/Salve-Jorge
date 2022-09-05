@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2970b86054090134599e675dd7e6f2fd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PauseScreen: {instanceID: 0}
+  - GameOverScreen: {instanceID: 0}
+  - HeartsContainer: {instanceID: 0}
+  - PointsText: {instanceID: 0}
+  - LevelText: {instanceID: 0}
+  - CountdownText: {instanceID: 0}
+  - Fader: {instanceID: 0}
+  - GUIHeartEmpty: {fileID: 156534, guid: df91089bedb83134c9e8cfa23644f0c9, type: 3}
+  - GUIHeartFull: {fileID: 103998, guid: e6b899af25e359d4ca581cbec0446d47, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

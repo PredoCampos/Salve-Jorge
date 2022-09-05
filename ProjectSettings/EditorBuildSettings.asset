@@ -6,6 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Import/InfiniteRunnerEngine/Common/Scenes/StartScreen.unity
+    guid: f85a334c9b92294469686a6e357e41c3
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Common/Scenes/LevelSelection.unity
+    guid: 9675d0f5d7a14c347be7ee6aed21d458
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/Minimal/Minimal2D.unity
+    guid: 7c70618f699de44458a7f6997f4e0b8a
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/LaneRunner/LaneRunner.unity
+    guid: a8743f08dbccb4b4ca6aef4ed4f92f17
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/Minimal/Minimal3D.unity
+    guid: 0d6a87210634d1644966ca7c0b3615fc
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/Minimal/MultipleCharacters2D.unity
+    guid: 761f54a394e1e4e4da8a7454490ab64c
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/JellyForest/JellyForest.unity
+    guid: d64fe140aed8ada4daee2929348a7e6b
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/BackwardsDragon/BackwardsDragon.unity
+    guid: 446929b0510cf7f49bf1419d426d4f1a
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/FlappyCloud/FlappyCloud.unity
+    guid: 1ffaddc690283474a83febc2404be66e
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/SkyTheory/SkyTheory.unity
+    guid: f8da5ff5a1c2d43d5b2f215cc341e5bc
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/FlightOfTheAlbatross/FlightOfTheAlbatross.unity
+    guid: dff888a9ccbeb0a40b2babb9de1662e1
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/Vertical/Vertical.unity
+    guid: 6ee78542aba568d40a98d3478bf4c29c
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/Downhill/DownhillCharacterSelection.unity
+    guid: 530b65db175c9b4499b962b3649de3d1
+  - enabled: 1
+    path: Assets/Import/InfiniteRunnerEngine/Demos/Downhill/Downhill.unity
+    guid: c5a7ac567b7dfe243acf3b97c0aecdf6
   m_configObjects: {}

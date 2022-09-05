@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5967dfbd5482f6842bcdfe41f8f84d8c
+timeCreated: 1467540103
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _DeformationTexture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938,
+      type: 3}
+  - _WaterTexture: {fileID: 2800000, guid: bcd68033c0ebc104d92b57efcd2ccfbb, type: 3}
+  - _WaveTexture: {fileID: 2800000, guid: 31f5a8611c4ed1245b18456206e798dc, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
